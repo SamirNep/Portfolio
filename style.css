@@ -19,7 +19,6 @@ header{
 
 .logo{
     font-size: 24px;
-    font-weight: bold;
 }
 
 .logo .first-name{
@@ -30,6 +29,16 @@ header{
 .logo .last-name{
     font-weight: 400;
     color: #fff;
+}
+
+.nav-content{
+    display: flex;
+    gap: 30px;
+}
+
+.social{
+    display: flex;
+    gap: 15px;
 }
 
 .hero{
@@ -44,5 +53,9 @@ header{
 }
 
 .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
     margin-top: 30px;
 }
