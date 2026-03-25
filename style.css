@@ -49,11 +49,8 @@ nav ul li a{
     color: white;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #65EEA4;
-}
-.social-media{
-
 }
 
 .text{
@@ -94,6 +91,28 @@ nav ul li a:hover{
 
 .text a:hover{
     color: #65EEA4;
+}
+
+.stats{
+    display: flex;
+    gap: 80px;
+    margin-top: 60px;
+    overflow:auto;
+}
+
+.stats div {
+    width: 50%;
+    float: left;
+}
+.stats h2{
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.stats p{
+    font-size: x-large;
+    letter-spacing: 5%;
+    text-transform: uppercase;
 }
 
 .image{
