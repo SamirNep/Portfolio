@@ -18,6 +18,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    z-index: 10;
 }
 
 .logo{
@@ -97,22 +99,28 @@ nav ul li a:hover {
     display: flex;
     gap: 80px;
     margin-top: 60px;
-    overflow:auto;
 }
 
 .stats div {
-    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 30%;
     float: left;
 }
 .stats h2{
-    font-size: 64px;
+    font-size: 50px;
     font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
 }
 
 .stats p{
-    font-size: x-large;
-    letter-spacing: 5%;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
     text-transform: uppercase;
+    margin: 0;
+    line-height: 1.2;
 }
 
 .image{
@@ -121,6 +129,7 @@ nav ul li a:hover {
     position: absolute;
     bottom: 0;
     right: 100px;
+    z-index: 1;
 }
 
 .image img{
