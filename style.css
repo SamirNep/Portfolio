@@ -1,61 +1,113 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
-body {
+.hero {
+    height: 100vh;
+    width: 100%;
     background: #0d0d0d;
-    color: #fff;
+    font-family: Arial, sans-serif;
+    position: relative;
 }
 
-header{
+nav{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
     display: flex;
-    justify-content: space-between;
-    padding: 20px 60px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo{
-    font-size: 24px;
+    width: 3%;
+    color: white;
+    cursor: pointer;
 }
 
-.logo .first-name{
-    font-weight: 700;
-    color: #fff;
+.first{
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    letter-spacing: 1px;
 }
 
-.logo .last-name{
-    font-weight: 400;
-    color: #fff;
+.last{
+    color: white;
+    font-size: x-large;
+    letter-spacing: 1px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
 }
 
-.nav-content{
-    display: flex;
-    gap: 30px;
+nav ul li a{
+    text-decoration: none;
+    color: white;
 }
 
-.social{
-    display: flex;
-    gap: 15px;
+nav ul li a:hover{
+    color: #65EEA4;
 }
+.social-media{
 
-.hero{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 60px;
 }
 
 .text{
-    max-width: 50%;
+    margin: 0 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    color: white;
+}
+
+.badge{
+    background-color: #65EEA4;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.text h1{
+    margin-top: 4%;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.opacity{
+    opacity: 0.2;
+    font-size: x-large;
+    margin: 0 40px;
+    letter-spacing: 1px;
+}
+
+.text a{
+    margin: 0 30px;
+    color: white;
+    line-height: 60px;
+}
+
+.text a:hover{
+    color: #65EEA4;
 }
 
 .image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 350px;
-    margin-top: 30px;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 85%;
+    bottom: 0;
+    transform: translateX(-50%);
 }
