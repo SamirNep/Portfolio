@@ -135,7 +135,7 @@ nav ul li a:hover {
 .image img{
     height: 100%;
     position: absolute;
-    left: 85%;
+    left: 80%;
     bottom: 0;
     transform: translateX(-50%);
 }
