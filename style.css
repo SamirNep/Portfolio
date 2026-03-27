@@ -139,3 +139,78 @@ nav ul li a:hover {
     bottom: 0;
     transform: translateX(-50%);
 }
+
+.text2 {
+    margin: 0 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    color: white;
+}
+
+.intro {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+}
+
+.intro2 {
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+}
+
+.intro3 {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(153, 153, 153, 0.50) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.9px;
+}
+
+.image2 {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    z-index: 1;
+}
+
+.image2 img{
+    height: 100%;
+    position: absolute;
+    left: 80%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+    height: 40%;
+    width: 40%;
+}
+
+.card {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #3a3a3a;
+    background: transparent;
+    color: #f5f5f5;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card:hover {
+    background: #111111;
+    border-color: #6cf0a9;
+}
